@@ -1,2 +1,3 @@
-# macos-dotfiles
-My dot files and configuration for macOS
+# macOS Dotfiles
+
+Repository of my dotfiles I use for macOS. 
