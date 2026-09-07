@@ -1,0 +1,60 @@
+theme = "catppuccin_latte"
+
+[editor]
+line-number = "absolute"
+cursorline = true
+color-modes = true
+scrolloff = 8
+bufferline = "multiple"
+completion-timeout = 75
+popup-border = "all"
+end-of-line-diagnostics = "hint"
+rulers = [100]
+shell = ["zsh", "-c"]
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "disable"
+
+[editor.lsp]
+display-messages = true
+display-progress-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = [
+  "mode",
+  "spinner",
+  "file-name",
+  "file-modification-indicator",
+]
+
+center = [
+  "version-control",
+]
+
+right = [
+  "diagnostics",
+  "selections",
+  "file-type",
+  "file-indent-style",
+  "position",
+  "position-percentage",
+]
