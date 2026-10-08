@@ -145,3 +145,6 @@ eval "$(starship init zsh)"
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+# opencode
+export PATH=/Users/jkratz/.opencode/bin:$PATH
